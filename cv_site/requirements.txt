@@ -1,0 +1,7 @@
+Django>=4.2,<5.0
+gunicorn
+pillow
+psycopg2-binary       # if using PostgreSQL
+mysqlclient           # if using MySQL
+whitenoise            # for static file serving in production
+python-dotenv         # if you're loading env vars from .env files
